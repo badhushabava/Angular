@@ -1,0 +1,19 @@
+<h1 style="text-align: center;">{{title|uppercase}}</h1>
+<div>
+  <br>
+  <h3 class="myComp">Directive for focusing and highlighting the button when the mouse hovers over it.</h3>
+  <Button class="myComp" appHighlight>SAMPLE</Button>
+</div>
+<br>
+<div>
+  <br>
+  <h3 class="myComp">Directive for changing the value in the input field to  capital letters</h3>
+  <input class="myComp" placeholder="enter a value" appChangecase>
+</div>
+<br>
+<div>
+  <br>
+  <h3 class="myComp">Directive for changing the value in the input field to Indian currency when clicking Enter</h3>
+  <input #ip (input)="onInput(ip.value)" class="myComp" placeholder="enter Number" pattern="\d+(\.\d+)?" appRupeebox>
+  <p *ngIf="invalidInput" style="color: red;">Please enter a valid number.</p>
+</div>

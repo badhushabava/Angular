@@ -1,0 +1,16 @@
+div{
+  background-color: rgb(221, 226, 226);
+  height: 200px;
+  width:100%
+}
+button{
+  width: 100px;
+  height: 40px;
+}
+.myComp{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+input{
+    width: 150px;
+}
